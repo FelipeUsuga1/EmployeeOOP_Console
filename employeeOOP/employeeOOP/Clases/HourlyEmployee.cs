@@ -1,18 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EmployeeOOP.Clases
 {
-    public abstract class HourlyEmployee : Employee
+    public class HourlyEmployee : Employee
     {
         #region "Properties"
         public int Hours { get; set; }
         public decimal HoursValue { get; set; }
 
         #endregion
+
+        #region "Constructor"
+        public HourlyEmployee()
+        {
+                
+        }
+        #endregion
+
 
         #region "Public methods"
         public override decimal GetValueToPay()

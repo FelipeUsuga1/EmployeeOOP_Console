@@ -30,7 +30,7 @@ namespace EmployeeOOP.Clases
 
         public override string ToString()
         {
-            return $"{base.ToString()}" +
+            return $"{base.ToString()}" + //El base es para no repetir codigo y traer todo el toString y agregarle el atributo que falta
                 $"Salario Devengado: {Salary:C2}\n\t";
         }
 

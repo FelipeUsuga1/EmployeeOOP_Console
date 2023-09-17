@@ -15,8 +15,12 @@ namespace EmployeeOOP.Clases
         #endregion
 
         #region "Constructor"
+        public BaseCommissionEmployee()
+        {
+                
+        }
 
-        
+
         #endregion
 
         #region "Public methods"
